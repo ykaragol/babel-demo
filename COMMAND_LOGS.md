@@ -1,10 +1,9 @@
-yarn init
-yarn add --dev @babel/core @babel/cli @babel/preset-env
+1. `yarn init`
+2. `yarn add --dev @babel/core @babel/cli @babel/preset-env`
+3. `/node_modules/.bin/babel src --out-dir dist`
+4. `yarn add core-js`
 
-./node_modules/.bin/babel src --out-dir dist
-Watch with both Babel and Node :
-  - ./node_modules/.bin/babel src --out-dir dist --watch --verbose
-  - node --watch-path=dist dist/index.js
-  
 
-yarn add core-js
+To watch with both Babel and Node:
+- `./node_modules/.bin/babel src --out-dir dist --watch --verbose`
+- `node --watch-path=dist dist/index.js`
