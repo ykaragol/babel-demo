@@ -6,3 +6,5 @@ Watch with both Babel and Node :
   - ./node_modules/.bin/babel src --out-dir dist --watch --verbose
   - node --watch-path=dist dist/index.js
   
+
+yarn add core-js
