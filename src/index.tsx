@@ -1,4 +1,5 @@
 import "./module";
+import { getReactOutput } from "./react-renderer-module";
 
 const arr = [1, 2, 3, 4, 5];
 console.log(arr.map((n) => n ** 2));
@@ -22,3 +23,6 @@ const { name, ...attrs } = obj;
 console.log(name, attrs);
 
 console.log("Hello, world!");
+
+console.log("Here is some React output:");
+console.log(getReactOutput());
