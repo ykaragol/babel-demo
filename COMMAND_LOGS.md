@@ -6,5 +6,5 @@
 6. `yarn add --dev @babel/preset-typescript @types/node @types/react @types/react-dom`
 
 To watch with both Babel and Node:
-- `./node_modules/.bin/babel src --out-dir dist --watch --verbose`
+- `./node_modules/.bin/babel src --out-dir dist --watch --verbose --extensions '.ts,.tsx,.js,.jsx'`
 - `node --watch-path=dist dist/index.js`
