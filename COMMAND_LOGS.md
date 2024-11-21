@@ -5,6 +5,7 @@
 5. `yarn add @babel/preset-react`
 6. `yarn add --dev @babel/preset-typescript @types/node @types/react @types/react-dom`
 7. `yarn add react react-dom`
+8. `yarn add babel-preset-minify --dev`
 
 To watch with both Babel and Node:
 - `./node_modules/.bin/babel src --out-dir dist --watch --verbose --extensions '.ts,.tsx,.js,.jsx'`
