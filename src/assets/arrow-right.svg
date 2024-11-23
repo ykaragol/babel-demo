@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#455065" stroke-miterlimit="10">
+        <path d="M1.5 2v5.91c0 .88.71 1.59 1.59 1.59H13"/>
+        <path d="m9.5 13.5 4-4-4-4"/>
+    </g>
+    <defs>
+        <clipPath>
+            <path fill="#fff" d="M0 0h16v16H0z"/>
+        </clipPath>
+    </defs>
+</svg>

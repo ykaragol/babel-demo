@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ArrowRight from "./assets/arrow-right.svg";
 
 export default function DummyReactComponent() {
   const [clickCount, setClickCount] = useState(0);
@@ -11,6 +12,7 @@ export default function DummyReactComponent() {
     <div>
       Your click count: {clickCount}.
       <button onClick={handleClick}>Click</button>
+      <ArrowRight />
     </div>
   );
 }
