@@ -10,7 +10,8 @@ In this project;
   - TS compiler is used in "noEmit" mode, to let Babel to compile TS code to JS.
 - Minify option was introduced.
 - Asset support introduced such as images or svgs or fonts.
-- Sourcemap file generation introduced.
+- Sourcemap file generation was introduced.
+- `.browserslistrc` was introduced.
 
 See [Command Logs](./COMMAND_LOGS.md), for more details on how this project was set up.
 
