@@ -1,23 +1,21 @@
 {
-    "sourceMaps": true,
-    "plugins": [
-      "inline-react-svg"
+  "sourceMaps": true,
+  "plugins": ["inline-react-svg"],
+  "presets": [
+    "minify",
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": "3.6.5"
+      }
     ],
-    "presets": [
-      "minify",
-      [
-        "@babel/preset-env",
-        {
-          "useBuiltIns": "usage",
-          "corejs": "3.6.5"
-        }
-      ],
-      [
-        "@babel/preset-react",
-        {
-          "runtime": "automatic"
-        }
-      ],
-      "@babel/preset-typescript"
-    ]
-  }
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
